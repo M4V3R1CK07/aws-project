@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./App.module.css";
 import { Overview } from "./components/Overview/Overview";
 import { Contact } from "./components/Contact/Contact";
