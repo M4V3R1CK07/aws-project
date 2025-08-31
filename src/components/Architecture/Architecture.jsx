@@ -10,7 +10,10 @@ export const Architecture = () => {
         <div className={styles.skills}>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src="/assets/architecture/amazon_s3.png" alt="Amazon S3" />
+              <img
+                src="public/assets/architecture/amazon_s3.png"
+                alt="Amazon S3"
+              />
             </div>
             <p>Amazon S3 for static hosting</p>
           </div>
@@ -18,7 +21,7 @@ export const Architecture = () => {
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
               <img
-                src="/assets/architecture/amazon_cloudfront.png"
+                src="public/assets/architecture/amazon_cloudfront.png"
                 alt="Amazon CloudFront"
               />
             </div>
@@ -28,7 +31,7 @@ export const Architecture = () => {
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
               <img
-                src="/assets/architecture/amazon_route53.png"
+                src="public/assets/architecture/amazon_route53.png"
                 alt="Amazon Route 53"
               />
             </div>
