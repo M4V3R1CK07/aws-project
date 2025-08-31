@@ -1,4 +1,5 @@
 import React from "react";
+import { photo1 } from "./amazon_cloudfront.png";
 import styles from "./Architecture.module.css";
 
 export const Architecture = () => {
@@ -17,7 +18,7 @@ export const Architecture = () => {
 
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src="/amazon_cloudfront.png" alt="Amazon CloudFront" />
+              <img src={photo1} alt="Amazon CloudFront" />
             </div>
             <p>CloudFront for HTTPS and caching</p>
           </div>
