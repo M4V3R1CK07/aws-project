@@ -17,7 +17,7 @@ export const Hero = () => {
 
       <img
         className={styles.heroImg}
-        src="assets/hero/aws_logo.jpg"
+        src="/assets/hero/aws_logo.jpg"
         alt="Abstract illustration representing cloud hosting"
       />
 
