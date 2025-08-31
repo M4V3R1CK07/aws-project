@@ -15,11 +15,11 @@ export const Hero = () => {
         </a> */}
       </div>
 
-      <img
+      {/* <img
         className={styles.heroImg}
         src="/aws_logo.jpg"
         alt="Abstract illustration representing cloud hosting"
-      />
+      /> */}
 
       <div className={styles.topBlur} aria-hidden="true" />
       <div className={styles.bottomBlur} aria-hidden="true" />
