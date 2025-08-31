@@ -17,9 +17,9 @@ export const Architecture = () => {
           </div>
 
           <div className={styles.skill}>
-            {/* <div className={styles.skillImageContainer}>
+            <div className={styles.skillImageContainer}>
               <img src={photo1} alt="Amazon CloudFront" />
-            </div> */}
+            </div>
             <p>CloudFront for HTTPS and caching</p>
           </div>
 
