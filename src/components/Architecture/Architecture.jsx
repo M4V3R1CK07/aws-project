@@ -1,5 +1,5 @@
 import React from "react";
-import { photo1 } from "./amazon_cloudfront.png";
+import { photo1 } from "public/amazon_cloudfront.png";
 import styles from "./Architecture.module.css";
 
 export const Architecture = () => {
