@@ -14,11 +14,11 @@ export const Contact = () => {
 
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src="/assets/contact/emailIcon.png" alt="" />
+          <img src="/emailIcon.png" alt="" />
           <a href="mailto:team@example.edu">team@example.edu</a>
         </li>
         <li className={styles.link}>
-          <img src="/assets/contact/githubIcon.png" alt="" />
+          <img src="/githubIcon.png" alt="" />
           <a
             href="https://github.com/example/aws-hosting-project"
             target="_blank"

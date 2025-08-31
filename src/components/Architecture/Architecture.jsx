@@ -10,27 +10,21 @@ export const Architecture = () => {
         <div className={styles.skills}>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src="/assets/architecture/amazon_s3.png" alt="Amazon S3" />
+              <img src="/amazon_s3.png" alt="Amazon S3" />
             </div>
             <p>Amazon S3 for static hosting</p>
           </div>
 
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img
-                src="/assets/architecture/amazon_cloudfront.png"
-                alt="Amazon CloudFront"
-              />
+              <img src="/amazon_cloudfront.png" alt="Amazon CloudFront" />
             </div>
             <p>CloudFront for HTTPS and caching</p>
           </div>
 
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img
-                src="/assets/architecture/amazon_route53.png"
-                alt="Amazon Route 53"
-              />
+              <img src="/amazon_route53.png" alt="Amazon Route 53" />
             </div>
             <p>Route 53 alias records to CloudFront</p>
           </div>
